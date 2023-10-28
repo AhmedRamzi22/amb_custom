@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include amb_custom *.css
+recursive-include amb_custom *.csv
+recursive-include amb_custom *.html
+recursive-include amb_custom *.ico
+recursive-include amb_custom *.js
+recursive-include amb_custom *.json
+recursive-include amb_custom *.md
+recursive-include amb_custom *.png
+recursive-include amb_custom *.py
+recursive-include amb_custom *.svg
+recursive-include amb_custom *.txt
+recursive-exclude amb_custom *.pyc
